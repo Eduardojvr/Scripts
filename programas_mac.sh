@@ -20,6 +20,8 @@ echo "--> Step 6....."
 cd
 git clone https://github.com/Eduardojvr/Personalizacao_Bash_MacBook.git
 cd Personalizacao_Bash_MacBook
-mv .bash_profile  ../
+cp .bash_profile  ../
+cd
+rm -rf Personalizacao_Bash_MacBook
 
-echo "Fim"
+echo "--> Fim"

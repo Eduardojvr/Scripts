@@ -1,7 +1,8 @@
 echo "============= Dependencias e programas MAC ============= "
 
 echo "--> Step 1....."
-mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
 
 echo "--> Step 2....."
 curl http://bootstrap.pypa.io/get-pip.py -o get-pip.py
